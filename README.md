@@ -1,5 +1,21 @@
 ---
 
+# Behavioral Growth Strategy for Instacart Marketplace
+
+> **A strategy case study integrating behavioral analytics, product thinking, and quantitative modeling to identify scalable marketplace growth opportunities.**
+
+---
+
+## Executive Summary
+
+Marketplace growth is often measured using high-level business metrics such as GMV, retention, and order frequency. While these metrics capture business outcomes, they rarely explain **which behavioral changes actually drive sustainable marketplace growth.**
+
+Using the Instacart Online Grocery Shopping Dataset, this project develops a behavioral framework to explore a fundamental strategy question:
+
+> **How can Instacart accelerate growth by changing customer behavior—not simply increasing transactions?**
+
+Rather than treating customers as static segments, the analysis examines behavioral transitions across engagement levels to identify scalable growth opportunities. The findings are translated into a structured growth strategy supported by quantitative impact modeling and product recommendations.
+
 ## Data Source
 
 This project uses the publicly available **Instacart Online Grocery Basket Analysis Dataset**, originally released for the Instacart Market Basket Analysis competition and available on Kaggle.
