@@ -42,3 +42,9 @@ Because these metrics cannot be directly measured, this project develops **Weekl
 The growth impact estimates presented in this project are modeled projections assuming predefined behavioral improvements (e.g., **+1–3 unique items per order** or **3–10 percentage point reductions in 10+ day purchase gaps**) are achieved.
 
 These estimates are intended to compare the relative potential of different growth levers rather than predict actual business performance. Actual impact depends on the effectiveness of product interventions and should be validated through experimentation (e.g., A/B testing).
+
+## Presentation
+
+The complete strategy presentation is available in this repository.
+
+> **Note:** The PDF is password protected. The password is provided on my resume
