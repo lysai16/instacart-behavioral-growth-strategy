@@ -1,5 +1,3 @@
----
-
 # Behavioral Growth Strategy for Instacart Marketplace
 
 > **A strategy case study integrating behavioral analytics, product thinking, and quantitative modeling to identify scalable marketplace growth opportunities.**
@@ -8,33 +6,39 @@
 
 ## Executive Summary
 
-Marketplace growth is often measured using high-level business metrics such as GMV, retention, and order frequency. While these metrics capture business outcomes, they rarely explain **which behavioral changes actually drive sustainable marketplace growth.**
+This project investigates how customer behavior influences marketplace growth using the Instacart Online Grocery Shopping Dataset.
 
-Using the Instacart Online Grocery Shopping Dataset, this project develops a behavioral framework to explore a fundamental strategy question:
+Rather than focusing on individual transactions, the analysis examines behavioral transitions across engagement levels to identify scalable growth opportunities. The findings are translated into a structured growth strategy and supported by quantitative impact modeling.
 
-> **How can Instacart accelerate growth by changing customer behavior—not simply increasing transactions?**
-
-Rather than treating customers as static segments, the analysis examines behavioral transitions across engagement levels to identify scalable growth opportunities. The findings are translated into a structured growth strategy supported by quantitative impact modeling and product recommendations.
 
 ## Data Source
 
-This project uses the publicly available **Instacart Online Grocery Basket Analysis Dataset**, originally released for the Instacart Market Basket Analysis competition and available on Kaggle.
+This project uses the publicly available **Instacart Online Grocery Basket Analysis Dataset**, originally released for the **2018 Instacart Market Basket Analysis** competition and available on Kaggle.
 
-**Dataset:**
- [oai_citation:0‡kaggle.com](https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset?utm_source=chatgpt.com)
+**Dataset:** [Instacart Online Grocery Basket Analysis Dataset (Kaggle)](https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset)
 
-The dataset contains over **3 million grocery orders** from more than **200,000 anonymized users**, including purchase history, product information, and relative time between orders. It provides a valuable foundation for studying customer purchasing behavior and shopping patterns.  [oai_citation:1‡Kaggle](https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset?utm_source=chatgpt.com)
+The dataset represents a selected sample of Instacart users from the 2018 competition and does not include geographic, demographic, or other customer profile information. Findings should therefore be interpreted as **directional behavioral insights for this user cohort**, rather than a representation of current platform performance or the overall Instacart user base.
 
 ---
 
-## Data Limitations
+## Data Limitations & Disclaimers
+
+### Data Limitations
 
 As a public competition dataset, several business-critical metrics are intentionally unavailable, including:
 
 - Product prices and revenue
 - Customer lifetime value (LTV)
+- GMV and wallet share
 - Marketing exposure and promotions
 - Session-level behavioral events
-- Long-term retention and business outcomes
+- Absolute order timestamps
+- Long-term retention outcomes
 
-Because these metrics cannot be directly measured, this project develops a behavioral growth framework using **Weekly Active Items (WAI)** as a proxy for customer engagement. The objective is not to estimate actual business performance, but to identify scalable behavioral growth opportunities under the constraints of the available data.
+Because these metrics cannot be directly measured, this project develops **Weekly Active Items (WAI)** as a behavioral proxy for customer engagement and marketplace growth analysis.
+
+### Quantification Disclaimer
+
+The growth impact estimates presented in this project are modeled projections assuming predefined behavioral improvements (e.g., **+1–3 unique items per order** or **3–10 percentage point reductions in 10+ day purchase gaps**) are achieved.
+
+These estimates are intended to compare the relative potential of different growth levers rather than predict actual business performance. Actual impact depends on the effectiveness of product interventions and should be validated through experimentation (e.g., A/B testing).
